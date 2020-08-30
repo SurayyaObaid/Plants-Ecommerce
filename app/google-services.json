@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "488642502288",
+    "firebase_url": "https://plantsecommerce.firebaseio.com",
+    "project_id": "plantsecommerce",
+    "storage_bucket": "plantsecommerce.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:488642502288:android:5e335a2221b466fb5ec215",
+        "android_client_info": {
+          "package_name": "com.example.plants_ecommerce"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "488642502288-25h0d9vm5sdpol1uu81qn9i3gvvbr3cr.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.plants_ecommerce",
+            "certificate_hash": "3431ae19aea345252eebbc8a62c25e6368500c3f"
+          }
+        },
+        {
+          "client_id": "488642502288-6g1k00v3iamc29bmb3gbb47fjkjncbdb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCcEZzWKFRmQDkYA0jpMW8A4PXLwz9buLU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "488642502288-6g1k00v3iamc29bmb3gbb47fjkjncbdb.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

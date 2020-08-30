@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@android:color/white">
+
+    <item android:title="Home" android:icon="@drawable/ic_baseline_home_24" android:id="@+id/gardener" android:textSize="10sp"/>
+
+    <item android:title="Plants" android:icon="@drawable/predict1" android:id="@+id/predict" android:textSize="10sp"/>
+
+
+    <item android:title="WishList" android:icon="@drawable/wishlist" android:id="@+id/donationActivity" android:textSize="10sp"/>
+
+    <item android:title="Shop" android:icon="@drawable/cart" android:id="@+id/shop" android:textSize="10sp"/>
+
+</menu>

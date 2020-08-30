@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingTop="100dp"
+    android:paddingHorizontal="20dp"
+    tools:context=".Order">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Shipping Details"
+        android:background="@android:color/white"
+        android:padding="10dp"
+        android:textStyle="bold"
+        android:layout_margin="10dp"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:hint="Enter Full Name"
+        android:background="@android:color/white"
+        android:textSize="15sp"
+        android:padding="10dp"
+        android:textColor="@android:color/black"
+        android:inputType="text"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginVertical="10dp"
+        >
+        <EditText
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:hint="Card Number"
+            android:background="@android:color/white"
+            android:textSize="15sp"
+            android:padding="10dp"
+            android:inputType="number"
+            android:textColor="@android:color/black"
+            />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:inputType="number"
+            android:hint="CVV"
+            android:background="@android:color/white"
+            android:textSize="15sp"
+            android:padding="10dp"
+            android:textColor="@android:color/black"
+            />
+    </LinearLayout>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:hint="Address Line 1"
+        android:background="@android:color/white"
+        android:textSize="15sp"
+        android:padding="10dp"
+        android:textColor="@android:color/black"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:hint="Address Line 2"
+        android:background="@android:color/white"
+        android:textSize="15sp"
+        android:padding="10dp"
+        android:textColor="@android:color/black"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:hint="City"
+        android:inputType="textAutoCorrect"
+        android:background="@android:color/white"
+        android:textSize="15sp"
+        android:padding="10dp"
+        android:textColor="@android:color/black"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:hint="State"
+        android:background="@android:color/white"
+        android:textSize="15sp"
+        android:padding="10dp"
+        android:textColor="@android:color/black"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginVertical="10dp"
+        >
+        <EditText
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:hint="Country"
+            android:background="@android:color/white"
+            android:textSize="15sp"
+            android:padding="10dp"
+            android:inputType="textAutoComplete"
+            android:textColor="@android:color/black"
+            />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:inputType="number"
+            android:hint="Zip Code"
+            android:background="@android:color/white"
+            android:textSize="15sp"
+            android:padding="10dp"
+            android:textColor="@android:color/black"
+            />
+    </LinearLayout>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:gravity="top"
+        android:layout_margin="5dp"
+        android:inputType="text"
+        android:hint="Additional Note"
+        android:background="@android:color/white"
+        android:textSize="15sp"
+        android:padding="10dp"
+        android:textColor="@android:color/black"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+       android:textColor="@android:color/white"
+        android:text="Confirm Order"
+        android:textStyle="bold"
+        android:id="@+id/confirmOrder"
+        android:layout_marginTop="10dp"
+        />
+
+
+</LinearLayout>
